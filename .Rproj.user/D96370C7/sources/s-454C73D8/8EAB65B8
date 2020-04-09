@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586457461517.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "415156910",
+    "id" : "8EAB65B8",
+    "lastKnownWriteTime" : 1586458789,
+    "last_content_update" : 1586458789997,
+    "path" : "~/private-projects/202004-bayesian-data-analysis/book_scripts/RunningProportion.R",
+    "project_path" : "book_scripts/RunningProportion.R",
+    "properties" : {
+        "cursorPosition" : "0,6",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
