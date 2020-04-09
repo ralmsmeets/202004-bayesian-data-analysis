@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586460303735.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DCE297F6",
+    "lastKnownWriteTime" : 1586459763,
+    "last_content_update" : 1586459763,
+    "path" : "~/private-projects/202004-bayesian-data-analysis/book_scripts/IntegralOfDensity.R",
+    "project_path" : "book_scripts/IntegralOfDensity.R",
+    "properties" : {
+        "cursorPosition" : "10,65",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

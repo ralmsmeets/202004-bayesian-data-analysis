@@ -52,4 +52,53 @@ flipPropPlot <- ggplot(DT, aes(log10(runNumber), headProportion)) +
 
 # Excercise 4.3 ====================================================================================================================
 
+# Part A
+(2*4)/48
+
+# Part B
+((2*4)+(2*4))/48
+
+# Excercise 4.4 ====================================================================================================================
+
+# Part A - intialize
+xlow  = 0
+xhigh = 1
+dx = 0.01
+
+x = seq(from = xlow, to = xhigh, by = dx )
+
+# Compute y values, i.e., probability density at each value of x:
+y = 6*x*(1-x)
+
+# Plot density function
+DT <- data.table(x = x,
+                 y = y)
+
+probDensityPlot <- ggplot(DT, aes(x, y)) +
+  geom_line()
+
+# Part B
+3*x^2 - 2*x^3 + C
+
+# Excercise 4.5 ====================================================================================================================
+
+# Part A - initialize
+meanval = 0.0               
+sdval = 0.2                 
+xlow  = meanval - sdval 
+xhigh = meanval + sdval 
+dx = sdval/1000              
+
+x = seq(from = xlow, to = xhigh, by = dx )
+y = (1/(sdval*sqrt(2*pi)) ) * exp( -.5 * ((x-meanval)/sdval)^2)
+
+sum(dx*y)
+
+# Part B
+meanval = 162
+sd = 15
+
+# Excercise 4.6 ====================================================================================================================
+
+
 
